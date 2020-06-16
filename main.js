@@ -1,6 +1,4 @@
 let video = document.querySelector('.landing-video__content')
-if (video)
-    video.load()
 
 video.addEventListener('loadeddata', function () {
     // Video is loaded and can be played
