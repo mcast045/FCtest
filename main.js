@@ -1,8 +1,9 @@
 let video = document.querySelector('.landing-video__content')
-if (video) {
-    video.src = 'my_video_' + value + '.ogg';
-    video.load();
-}
+if (video)
+    video.load()
+
+video.addEventListener('loadeddata', function () {
+}, false);
 
 
 window.Reveal = ScrollReveal()
