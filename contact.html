@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="img/shortLogo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="mobileStyle.css" />
+    <script src="https://kit.fontawesome.com/588c035b6d.js" crossorigin="anonymous"></script>
+
+    <title>Foothill Consulting | Contact</title>
+</head>
+
+<body>
+    <header class='header'>
+        <div class="header-wrapper">
+            <a href="#" class="navbar-brand">
+                <img src='./img/logo.png' width="250" height="100" alt="Logo" />
+            </a>
+
+            <ul class="header-wrapper_list">
+                <li class="header-wrapper_list-item list-item">
+                    <a href='/' class='link'>Home</a>
+                </li>
+
+                <li class="header-wrapper_list-item list-item">
+                    <a href='/about.html' class='link'>About Us</a>
+                </li>
+
+                <li class="header-wrapper_list-item list-item">
+                    <a href='/services.html' class='link'>Services</a>
+                </li>
+
+                <li class="header-wrapper_list-item list-item">
+                    <a href='/contact.html' class='link active'>Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+
+    <div class='contact'>
+        <h2 class='contact-header'>
+            Contact <span>us</span>
+        </h2>
+
+        <div class='contact-wrapper'>
+            <div class='contact-message'>
+                <h3 class='contact-contact-intro'>Questions?</h3>
+                <p class='contact-text'>Do you have a digital marketing need? Contact us today and set up an
+                    appointment to see how we can help you and your business get to the next peak!</p>
+            </div>
+
+            <form class='contact-form' name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+                <input name="bot-field" class="hidden" />
+                <input type='text' id='name' name='name' placeholder='Name' />
+                <input type='email' id='email' name='email' placeholder='Email' />
+                <input type='text' id='subject' name='subject' placeholder='Subject' />
+                <textarea id='message' name='message' placeholder='Message...'></textarea>
+                <div data-netlify-recaptcha="true"></div>
+                <input class='submit' type='submit' />
+            </form>
+        </div>
+    </div>
+
+
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>Copyright &copy; 2020. All Rights Reserved</p>
+
+            <div class="social">
+                <a href='!#' class="link"><i class="fab fa-twitter"></i></a>
+                <a href='!#' class="link"><i class="fab fa-facebook"></i></a>
+                <a href='!#' class="link"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
