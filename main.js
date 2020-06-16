@@ -3,7 +3,8 @@ if (video)
     video.load()
 
 video.addEventListener('loadeddata', function () {
-}, false);
+    // Video is loaded and can be played
+}, true);
 
 
 window.Reveal = ScrollReveal()
