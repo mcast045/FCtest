@@ -2,7 +2,7 @@ let video = document.querySelector('.landing-video__content')
 
 video.addEventListener('loadeddata', function () {
     // Video is loaded and can be played
-}, true);
+}, false);
 
 
 window.Reveal = ScrollReveal()
