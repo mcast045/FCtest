@@ -1,8 +1,8 @@
 :root {
     --color-light-1: #fff;
     --color-light-2: #999;
-    --color-primary: rgb(241, 90, 41);
-    --color-secondary: rgb(38, 34, 98);
+    --color-primary: #F15A29;
+    --color-secondary: #262262;
     --font-size-1: 1.5rem;
 }
 
@@ -450,11 +450,21 @@ body {
 
 .carousel-control-prev,
 .carousel-control-next {
-    width: 10% !important;
+    width: 5% !important;
 }
 
 .carousel-inner {
     background-color: var(--color-primary) !important;
+}
+
+.services-mission-1,
+.services-mission-2,
+.services-mission-3,
+.services-mission-4,
+.services-mission-5 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
 }
 
 
