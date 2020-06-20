@@ -347,8 +347,10 @@ body {
 
 .card-employees .card-employees-wrapper img {
     width: 30%;
+    height: 35rem;
     border-radius: 100px;
     margin: 0 1rem;
+    object-fit: cover;
 }
 
 .card-employees .card-employees-wrapper .card-employees-content {

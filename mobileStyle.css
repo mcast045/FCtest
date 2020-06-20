@@ -6,6 +6,11 @@
     }
 }
 
+@media only screen and (max-width: 1300px) {
+    /* About */
+    .card-employees .card-employees-wrapper img {height: 25rem;}
+}
+
 @media only screen and (max-width: 1150px) {
     /* Services */
     .services .services-mission .services-mission_content {
@@ -25,6 +30,7 @@
     .us .us-wrapper .us_content .us_text {width: 75%;}
 
     /* About */
+    .card-employees .card-employees-wrapper img {height: 20rem;}
     .about-us .about-us-header {width: 100%;}
     .about-us .about-us-mission {padding: 2rem 0;}
     .about-us .about-us-mission .about-us-mission-header {font-size: 4rem;}
@@ -37,6 +43,9 @@
 }
 
 @media only screen and (max-width: 920px) {
+    /* About */
+    .card-employees .card-employees-wrapper img {height: 15rem;}
+
     /* Services */
     .services .services-mission .services-mission_content {
         width: 90%;
@@ -130,6 +139,13 @@
     .footer-content p {margin-top: 1rem;}
 }
 
+@media only screen and (max-width: 778px) {
+    /* About */
+    .card-employees .card-employees-wrapper .card-employees-content {
+        height: 75%;
+    }
+}
+
 @media only screen and (max-width: 740px) {
     /* Servies */
     .services .services-mission .services-mission_content .services-mission_image {display: none;}
@@ -168,6 +184,7 @@
     .about-us .about-us-mission .about-us-mission-header {font-size: 4rem;}
     .card-employees {flex-direction: column;}
     .about-us .about-us-header {font-size: 5rem;}
+    .card-employees .card-employees-wrapper img {height: 30rem;}
 
     .about-us .about-us-mission .about-us-mission-text {
         font-size: 1.2rem;
@@ -179,20 +196,11 @@
         flex-direction: row-reverse;
     }
 
-    .card-employees .card-employees-wrapper .card-employees-content .card-name {
-        font-size: 2rem;
-        padding-left: 1rem;
-    }
+    .card-employees .card-employees-wrapper .card-employees-content .card-name {font-size: 2rem;}
 
     .card-employees .card-employees-wrapper .card-employees-content .card-position {
         font-size: 1rem;
         text-align: left;
-        padding-left: 1rem;
-    }
-
-    .card-employees .card-employees-wrapper img {
-        width: 30%;
-        border-radius: 100px;
     }
 
     /* Services */
@@ -216,6 +224,12 @@
 } 
 
 @media only screen and (max-width: 560px) {
+    /* About */
+    .card-employees .card-employees-wrapper img {
+        height: 20rem;
+        width: 25%;
+    }
+
     /* Contact */
     .contact .contact-wrapper .contact-form input,
     .contact .contact-wrapper .contact-form textarea {
@@ -244,6 +258,21 @@
 }
 
 @media only screen and (max-width: 360px) {
+    /* About */
+    .card-employees .card-employees-wrapper .card-employees-content .card-name {
+        font-size: 1.5rem;
+    }
+
+    .card-employees .card-employees-wrapper .card-employees-content .card-position,
+    .card-employees .card-employees-wrapper .card-employees-content .card-email {
+        font-size: .8rem;
+    }
+
+    .card-employees .card-employees-wrapper img {
+        height: 10rem;
+        object-position: 1% 0%;
+    }
+
     /* Contact */
     .contact .contact-wrapper .contact-form {padding: 1rem;}
 }
